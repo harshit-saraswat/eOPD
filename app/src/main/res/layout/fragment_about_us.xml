@@ -1,0 +1,36 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/opdred"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/developers"
+                android:text="This app was developed by students of Maharaja Agrasen Institute of Technology, MAU, Himachal Pradesh. The main purposse behind development of this app is to help the patients and the doctors and save them from a lot of hassle.\n\n\nWith this app patients can manage their OPD cards and medial history easily and they don't need to worry about any troubles like misplacement of their OPD cards or destruction of OPD cards, etc.\n\n\nAll the data is provided online and is secure via a QR Code format which can be editted by DBA or registered Doctors only"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
+
